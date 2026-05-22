@@ -1,0 +1,23 @@
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "@id": "https://example.it/#faq",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Domanda 1?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Risposta 1 — 2-3 frasi che rispondono in modo completo. Include keywords naturali."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Domanda 2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Risposta 2."
+      }
+    }
+  ]
+}
