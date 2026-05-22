@@ -1,63 +1,52 @@
-# <SITE NAME> — SEO Optimization Log
+# <Item Name> — Work Log
 
-**Sito:** https://example.it
-**GSC property:** `https://example.it/` (siteOwner)
-**Stack:** <WordPress + Polylang + Yoast | Laravel 12 | Vite SPA | ...>
-**Hosting:** <OVH shared SFTP-only | Plesk SSH + WP-CLI | git push deploy | ...>
-**Credenziali:** `/path/to/.env`
-**Business:** <1 paragrafo: cosa fa, indirizzo se locale, target>
+**Item:** <descrizione 1 riga: cos'è questo log>
+**Path / URL:** <dove vive il progetto / sito / risorsa>
+**Stack:** <tech stack: WordPress / Laravel / Node.js / Python / infra / etc>
+**Access:** <SSH / FTP / API token / local-only / git-deploy>
+**Credenziali:** `<path/to/.env>` — mai inline qui
+**Note iniziali:** <contesto, business / obiettivo principale, stakeholder>
 
 ---
 
 ## Diagnosi iniziale (YYYY-MM-DD)
 
-GSC 90 giorni: **N click, N impressions, CTR X%, posizione media Y**.
+Stato di partenza: <cosa funziona, cosa no>.
 
-### Top query (pos 10-25 — già ranking decente)
-| Query | Imp | Pos |
-|---|---|---|
-| ... | ... | ... |
-
-### Query deboli (pos 50+)
+Metriche pre-intervento:
 - ...
 
-### Top pagine
-- `/`: ... imp, CTR ...
-- ...
-
-### Problemi tecnici rilevati
+Problemi rilevati:
 1.
 2.
-3.
 
 ---
 
-## Round 1 (YYYY-MM-DD) — <titolo>
+## Round 1 (YYYY-MM-DD) — <titolo del round>
 
 ### Driver
-<perché è stato fatto questo round>
+<perché ora, cosa ha innescato questo round>
 
 ### Operazioni completate
 
-#### a) ...
-#### b) ...
+#### a) <macro-step 1>
+<dettagli>
 
-### File modificati sul server
+#### b) <macro-step 2>
+<dettagli>
+
+### File modificati
 
 ```
-/path/to/file        ✏️ ...
-/path/to/new-file    🆕 ...
+/path/to/file.ext       ✏️ modificato
+/path/to/newfile.ext    🆕 nuovo
 ```
 
-DB:
-- `wp_options.xxx` → ...
-- `wp_postmeta` → ...
+### Verifica
 
-### Verifica live
-
-| URL | Atteso | Risultato |
-|---|---|---|
-| ... | ... | ✅ |
+Come ho validato che funziona:
+- Comando 1: output OK
+- Snapshot/metrica: prima X, dopo Y
 
 ---
 
@@ -65,16 +54,16 @@ DB:
 
 ---
 
-## Da fare (backlog SEO)
+## Da fare (backlog)
 
 ### Alto impatto
-- [ ] ...
+- [ ]
 
 ### Medio impatto
-- [ ] ...
+- [ ]
 
 ### Basso impatto / nice-to-have
-- [ ] ...
+- [ ]
 
 ---
 
@@ -90,16 +79,16 @@ DB:
 
 -
 -
+-
 
 ---
 
-## Comandi di lavoro utili
+## Comandi / wrapper utili
 
 ```bash
-# Tooling wrapper
-/tmp/<prefix>_get.sh ...
-/tmp/<prefix>_put.sh ...
+# Wrapper di accesso
+/tmp/wrapper.sh ...
 
-# Smoke checks
-curl -sI https://example.it/
+# Smoke check
+curl -sI ...
 ```
